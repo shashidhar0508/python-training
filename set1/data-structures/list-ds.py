@@ -24,6 +24,7 @@ l=[4,3,3,7,7,7,7,2,9,9]
 print("length of list l is : ",len(l))
 print("count of 7 in list l is : ",l.count(7))
 
+
 #list manipulation
 #append(),insert(),remove(),pop(),extend(),clear() funtions in list
 list2=[]
@@ -33,21 +34,27 @@ list2.append(11)
 list2.append(4)
 list2.append(19)
 print("adding elements in list2 using append() function : ",list2)
+
 list2.insert(2,13)
 print("inserting elements in specified location in list2 using insert() fucntion : ",list2)
+
 list2.remove(4)
 print("removing element 4 in list2 using remove() fucntion : ",list2)
+
     #list2.pop() returns last element from list2 and returns removed element
 print("pop() function returning last element after removing it: ",list2.pop())
 print("After pop() function : ",list2)
     #we can also remove specifed element in list using index by pop() function
 print("removing 2nd index value in list2 : ",list2.pop(2))
 print("After removing 2nd index value in list2 using pop() function : ",list2)
+
 list3=[2,8,6,24,14]
 list2.extend(list3)
 print("adding another list3 to list2 using extend() fucntion : ",list2)
+
 list2.clear()
 print("removing all elements in list2 using clear() fucntion : ",list2)
+
 
 #Ordering elements in list
 #sort(),reverse()
