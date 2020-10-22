@@ -3,3 +3,4 @@ try:
     print(c)
 except ZeroDivisionError:
     print("cant divide with Zero")
+
