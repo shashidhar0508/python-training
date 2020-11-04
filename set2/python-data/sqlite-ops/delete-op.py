@@ -8,7 +8,7 @@ conn.commit()
 print("Total number of rows deleted :", conn.total_changes)
 
 cursor = conn.execute("SELECT id, name, address, salary from COMPANY")
-print("cursor type : ",type(cursor))
+print("cursor type : ", type(cursor))
 for row in cursor:
     print("ID = ", row[0])
     print("NAME = ", row[1])

@@ -21,5 +21,5 @@ with open("people.csv", 'r') as file:
         print(dict(row))
 
 # creating a data frame using csv
-df = pd.DataFrame([['Jack', 24], ['Rose', 22]], columns = ['Name', 'Age'])
-df.to_csv('person1.csv')    # writing data frame to a CSV file
+df = pd.DataFrame([['Jack', 24], ['Rose', 22]], columns=['Name', 'Age'])
+df.to_csv('person1.csv')  # writing data frame to a CSV file
